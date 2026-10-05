@@ -1,6 +1,6 @@
 def add(a, b):
     """Add two numbers"""
-    return a+b
+    return a + b
 
 
 def subtract(a, b):
@@ -17,7 +17,7 @@ def divide(a, b):
     """Divide two numbers"""
     if b == 0:
         raise ValueError("Cannot divide by zero")
-    return a/b
+    return a / b
 
 
 def calculate(operation, num1, num2):
@@ -43,4 +43,3 @@ if __name__ == "__main__":
     result2 = calculate('multiply', 7, 3)
     print(f"7 * 3 = {result2}")
     print("Calculator completed successfully!")
-    
